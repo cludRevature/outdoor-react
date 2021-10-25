@@ -1,18 +1,22 @@
-.parkEntry {
-    background-color: lightgray;
-    margin-top: 10px;
-}
-
-.meetupEntry {
-    background-color: lightgray;
-    margin-top: 10px;
-}
-
 ul {
     list-style-type: none;
 }
 
 li {
+    background-color: lightgray;
+    margin-top: 10px;
     padding: 10px;
+    margin-right: 10px;
     border-radius: 5px;
+}
+
+.friendEntry img {
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.login-container {
+    background-color: lightgrey;
+    margin-top: 1%;
+    padding: 1%;
 }

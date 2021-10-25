@@ -20,11 +20,12 @@ const Parks : React.FC = () => {
     return(
         <div>
             <h1 className="text-center">Parks</h1>
+            <hr />
         <ul>
             {parkList?.map(park => 
             <li className="parkEntry">
                 <h2>{park.fullName}</h2>
-                <img style={{height: 30}} src={park.images[0].url} />
+                <img style={{height: 60}} src={park.images[0].url} />
                 <p>{park.description}</p>
                 <Button>Meetup!</Button>
                 <Button variant="light">Website</Button>

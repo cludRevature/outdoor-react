@@ -4,13 +4,15 @@ import LoginInput from './LoginInput';
 
 const Login : React.FC = () => {
     return(
+        <div>
+            <h1 className="text-center">Login</h1>
+            <hr />
         <div className="login-container text-center">
-        <div className="title">
-         Login
-        </div>
         <LoginInput/>
         <LoginInput/>
-        <Button variant="dark">Log In</Button>
+        <Button>Log In</Button>
+        <Button variant="light">Register</Button>
+      </div>
       </div>
     );
 }
