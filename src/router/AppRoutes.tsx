@@ -2,9 +2,9 @@ import React from 'react';
 import { Redirect, Route, Switch } from 'react-router';
 import HomePage from '../components/home-page/HomePage';
 import Meetups from '../components/meetups/Meetups';
-import Places from '../components/places/Places';
 import Login from '../components/login/Login'
 import Friends from '../components/friends/Friends';
+import Parks from '../components/parks/Parks';
 
 const AppRoutes: React.FC<unknown> = () => {
 
@@ -14,8 +14,8 @@ const AppRoutes: React.FC<unknown> = () => {
           <Route exact path='/meetups'>
             <Meetups />
           </Route>
-          <Route path='/places'>
-            <Places />
+          <Route path='/parks'>
+            <Parks />
           </Route>
           <Route path='/login'>
             <Login />

@@ -21,7 +21,7 @@ const NavBar: React.FC<unknown> = () => {
             <Nav className="me-auto container-fluid">
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/meetups">Meetups</Nav.Link>
-                <Nav.Link href="/places">Places</Nav.Link>
+                <Nav.Link href="/parks">Parks</Nav.Link>
                 <Nav.Link href="/friends">Friends</Nav.Link>
                 <Nav.Link href="/login" className="ms-auto">Login</Nav.Link>
                 
